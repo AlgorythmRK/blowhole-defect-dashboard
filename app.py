@@ -248,7 +248,7 @@ with st.sidebar:
 st.markdown("""
     <div class="header-container">
         <h1 class="header-title">🔍 Blowhole Defect Detection System</h1>
-        <p class="header-subtitle">AI-Powered Pre-Machining Quality Inspection for Precision Casting Components</p>
+        <p class="header-subtitle">AI-Powered Quality Inspection for Precision Casting Components</p>
     </div>
 """, unsafe_allow_html=True)
 
@@ -328,7 +328,7 @@ with tab1:
                         </div>
                     """, unsafe_allow_html=True)
                     
-                    st.success("**Recommendation:** Accept component - Proceed to machining")
+                    st.success("**Recommendation:** Accept component - Proceed")
                 
                 st.markdown("---")
                 
@@ -405,7 +405,7 @@ with tab3:
     st.markdown("""
     #### 🎯 Purpose
     This AI-powered quality control system is designed to automatically detect blowhole defects 
-    in casting components before machining operations, reducing waste and improving production efficiency.
+    in casting components.
     
     #### 🔬 Technology
     - **Deep Learning Model:** MobileNetV2 architecture optimized for edge deployment
@@ -416,7 +416,6 @@ with tab3:
     #### 🏭 Deployment
     - **Organization:** Dana Anand India Pvt. Ltd.
     - **Department:** Automotive Casting Division
-    - **Application:** Pre-machining quality inspection
     
     #### ⚙️ How It Works
     1. Upload a high-quality image of the casting component
