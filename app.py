@@ -5,6 +5,7 @@ from torchvision import models, transforms
 from PIL import Image
 import plotly.graph_objects as go
 from datetime import datetime
+import plotly.graph_objects as go
 
 # -------------------------------------------------- 
 # PAGE CONFIG
